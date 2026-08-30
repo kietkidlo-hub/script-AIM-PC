@@ -10,7 +10,7 @@ local isHoldingE = false
 
 -- GUI SETUP
 local ScreenGui = Instance.new("ScreenGui", lp:WaitForChild("PlayerGui"))
-ScreenGui.Name = "KietKid_Aimbot_Menu"
+ScreenGui.Name = "NTK_HUB"
 ScreenGui.ResetOnSpawn = false
 
 local Frame = Instance.new("Frame", ScreenGui)
@@ -27,7 +27,7 @@ UIStroke.Thickness = 2
 
 local Title = Instance.new("TextLabel", Frame)
 Title.Size = UDim2.new(1, 0, 0, 30)
-Title.Text = "KIET KID | " .. lp.Name
+Title.Text = "NTK HUB | " .. lp.Name
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.BackgroundTransparency = 1
 Title.Font = Enum.Font.SourceSansBold
